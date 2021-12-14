@@ -1,0 +1,54 @@
+/* coloring for the h1 */
+h1 {
+    color: rgb(121, 69, 21)
+}
+.App {
+min-height: 100vh
+}
+/* setting the coloring of the page to a gradient */
+body {
+    background-image: linear-gradient(to bottom right, #e77811c4, #16e6bc);
+    min-height: 100vh;
+}
+/* button styling giving it the illusion that it is being pushed */
+button {
+    padding: 15px 25px;
+    font-size: 15;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgba(255, 208, 0, 0.767);
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 px #999;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button:hover{
+    background-color: #3e8e41;
+  }
+  button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: transoleY(4px)
+  }
+  /* putting a border on the image */
+img {
+    border: 3px solid rgb(11, 236, 124);
+    justify-content: center
+    
+}
+/* putting nav bars in a flex */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact {
+    height: 100vh
+}
