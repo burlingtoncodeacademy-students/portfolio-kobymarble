@@ -1,54 +1,71 @@
 /* coloring for the h1 */
 h1 {
-    color: rgb(121, 69, 21)
+  color: rgb(121, 69, 21);
+  display: flex;
+  justify-content: center;
 }
 .App {
-min-height: 100vh
+  min-height: 100vh;
 }
 /* setting the coloring of the page to a gradient */
 body {
-    background-image: linear-gradient(to bottom right, #e77811c4, #16e6bc);
-    min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #e77811c4, #16e6bc);
+  min-height: 100vh;
 }
+
 /* button styling giving it the illusion that it is being pushed */
 button {
-    padding: 15px 25px;
-    font-size: 15;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: rgba(255, 208, 0, 0.767);
-    background-color: tomato;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 px #999;
-    display: block;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  button:hover{
-    background-color: #3e8e41;
-  }
-  button:active{
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: transoleY(4px)
-  }
-  /* putting a border on the image */
-img {
-    border: 3px solid rgb(11, 236, 124);
-    justify-content: center
-    
+  padding: 15px 25px;
+  font-size: 15;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgba(255, 208, 0, 0.767);
+  background-color: tomato;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 px #999;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: transoleY(4px);
+}
+/* putting a border on the image */
+#ProfilePic {
+  border: 3px solid rgb(11, 236, 124);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* putting nav bars in a flex */
 nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .contact {
-    height: 100vh
+  height: 100vh;
+}
+/* keeps footer at bottom of page */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/* centers all text in p tags */
+p {
+  display: flex;
+  justify-content: center;
 }
