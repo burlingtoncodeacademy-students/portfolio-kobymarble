@@ -69,3 +69,47 @@ p {
   display: flex;
   justify-content: center;
 }
+/* centering resume */
+#resume {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* increasing font size of github link and centering */
+#github {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(121, 69, 21);
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+/* centering capstone link */
+#poop {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+/* centering capstone picture */
+#pooppic {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* centering jeopardy link */
+#jeopardy {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+/* centering jeopardy picture */
+#jeopardypic {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
