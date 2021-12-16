@@ -30,7 +30,7 @@ function WorkHistory() {
           javascripts, css, html, and react. Ive also had experience with the
           databases mongodb and firebase.
         </p>
-        <a id= "resume" href="images/resume.png" download>
+        <a id="resume" href="images/resume.png" download>
           resume
         </a>
       </div>
